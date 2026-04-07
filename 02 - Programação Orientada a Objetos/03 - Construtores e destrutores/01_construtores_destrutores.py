@@ -10,12 +10,10 @@ class Cachorro:
 
     def falar(self):
         print("auau")
-
-
+        
 def criar_cachorro():
     c = Cachorro("Zeus", "Branco e preto", False)
     print(c.nome)
-
 
 c = Cachorro("Chappie", "amarelo")
 c.falar()
